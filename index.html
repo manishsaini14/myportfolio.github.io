@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/wp/themes/twenty-eightteen/1.7/assets/js/html5.min.js">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/9182c21af6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="home-container">
+
+        <nav class="navbar">
+            <h1 class="logo">Manish <span id="saini"> Saini</span></h1>
+
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="nav-menu">
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <div class="cv-btn">
+                            <button>Download CV</button>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- <div class="cv-btn">
+                    <button>Download CV</button>
+                </div> -->
+            </div>
+
+
+        </nav>
+
+        <!-- -----------------------------------front content-----------------------------------     -->
+
+
+        <div class="front-section">
+            
+
+
+                <div class="title-area">
+                    <div class="box-title">
+
+                        <h1 class="title ">I'm Web Developer</h1>
+                        <h2 class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, ratione!Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Sit, repudiandae.</h2>
+                    </div>
+                </div>
+            
+            <div class="img-area">
+                <div class="img">
+                    <div class="img-item">
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+    <script>
+        var icon = document.querySelector(".menu-icon");
+        icon.onclick = function () {
+            navBar = document.querySelector(".nav-menu");
+            navBar.classList.toggle("active");
+        }
+    </script>
+
+
+</body>
+
+</html>
